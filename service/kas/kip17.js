@@ -2,7 +2,7 @@ const ApiCaller=require('./api_caller');
 const process=require('process');
 
 class Kip17 extends ApiCaller {
-    contract='xrisp-nori-ar-contract-1';
+    contract='contract_name';
 
     constructor () {
         super('https://kip17-api.klaytnapi.com');
